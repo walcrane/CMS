@@ -1,0 +1,133 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+.carousel-inner img {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+    font-size: 500%;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* text-shadow: 2px 2px 10px #fff; */
+    color: #222
+}
+
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 2px 2px 15px #fff;
+    color: #222;
+}
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+a {
+    color:#222;
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(145, 145, 145);
+}
+.zajawka h3 {
+    margin: 1rem;
+}
+
+.zaj-hr {
+    border-top: 2px solid #3a3a3a;
+    width: 95%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.btn-outline-dark {
+    margin-bottom: 1.5rem;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+hr.light-last {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.center {
+    margin: 200px auto;
+    width: 300px;
+    border: 3px solid gray;
+    border-radius: 25px;
+    padding: 10px;
+    }
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+    .carousel-caption {
+        top: 45%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 350%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+}
+@media (max-width: 576px) {
+    .carousel-caption {
+        top: 40%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 250%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 110%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+}
