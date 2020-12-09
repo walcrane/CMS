@@ -4,36 +4,36 @@
     <?php include_once('inc/nav.php'); ?>
 
     <?php if ($uri == '/'): ?>
-        <div id="slides" class="carousel slide" data-ride="carousel">
-            <ul class="carousel-indicators">
-                <li data-target="#slides" data-slide-to="0" class="active"></li>
-                <li data-target="#slides" data-slide-to="1"></li>
-                <li data-target="#slides" data-slide-to="2"></li>
-            </ul>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/background.jpg" alt="Niebo">
-                    <div class="carousel-caption">
-                        <h1 class="display-2">Tutorial CMS</h1>
-                        <h3>Layout dla ćwiczenia CMS</h3>
-                    </div>
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/public/img/background.jpg" alt="Niebo">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Tutorial CMS</h1>
+                    <h3>Layout dla ćwiczenia CMS</h3>
                 </div>
-                <div class="carousel-item">
-                    <img src="img/background2.jpg" alt="Las">
-                    <div class="carousel-caption">
-                        <h1 class="display-2">Lorem ipsum dolor</h1>
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
-                    </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/public/img/background2.jpg" alt="Las">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Lorem ipsum dolor</h1>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
                 </div>
-                <div class="carousel-item">
-                    <img src="img/background3.jpg" alt="Burza">
-                    <div class="carousel-caption">
-                        <h1 class="display-2">Lorem ipsum dolor</h1>
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
-                    </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/public/img/background3.jpg" alt="Burza">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Lorem ipsum dolor</h1>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
                 </div>
             </div>
         </div>
+    </div>
     <?php endif; ?>
     <?php include_once('inc/content.php'); ?>
     <footer>
@@ -62,4 +62,5 @@
         </div>
     </footer>
 </body>
+
 </html>

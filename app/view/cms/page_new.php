@@ -1,10 +1,10 @@
 <?php include_once('inc/header.php') ?>
-<form action="admin/add_page" class="mt-3" data-bitwarden-watching="1" method="POST">
+<form action="app/scripts//add_page.php" class="mt-3" method="post">
   <fieldset>
     <legend>Nowa Strona</legend>
     <div class="form-group">
-      <label for="name">Nazwa strony</label>
-      <input type="text" class="form-control" name="name" id="name" aria-describedby="nameHelp" placeholder="Tutaj wpisz nazwę">
+      <label for="site_name">Nazwa strony</label>
+      <input type="text" class="form-control" name="site_name" id="site_name" aria-describedby="nameHelp" placeholder="Tutaj wpisz nazwę">
     </div>
     <div class="form-group">
       <label for="seo_title">Meta tytuł</label>
@@ -25,7 +25,7 @@
     </div>
     <div class="form-group">
       <label for="content">Treść</label>
-      <textarea class="form-control" name="content" id="content" cols="30" rows="10"></textarea>
+      <textarea class="form-control" name="editor" id="editor" cols="30" rows="10"></textarea>
     </div>
     <button type="submit" name="submit" class="btn btn-primary mb-3">Dodaj</button>
   </fieldset>
