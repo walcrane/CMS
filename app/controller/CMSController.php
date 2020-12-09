@@ -10,10 +10,13 @@ function cms_start()
         'admin' => 'dashboard.php',
         'admin/page' => 'page.php',
         'admin/page/new' => 'page_new.php',
+        'admin/page/delete' => 'delete_page.php',
+        'admin/page/edit' => 'edit_page.php',
         'admin/seo' => 'seo.php',
         'admin/settings' => 'settings.php',
         'admin/zaloguj' => 'login.php',
         'admin/wyloguj' => 'logout.php',
+        'admin/delete' => 'delete.php',
     ];
     
     $uri = $_GET['uri'];

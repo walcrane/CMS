@@ -22,7 +22,12 @@
     <tr class="table-secondary">
       <td><a href="admin/page?edit=<?= $page['id'] ?>"><?= $page['name'] ?></a></td>
       <td><a href="admin/page?edit=<?= $page['id'] ?>" class="btn btn-success" role="button">Edytuj</a></td>
-      <td><a href="#" class="btn btn-danger" role="button">Usuń</a></td>
+      <td> 
+        <form action="admin/page/delete" method="post">
+          <input type="hidden" name="id" value="<?= $page['id']; ?>">
+          <input type="submit" name="submit" class=" btn btn-danger mybtn tx-tfm" value="Usuń"></input>
+        </form>
+      </td>
     </tr>
     <?php endforeach; endif; ?>
 
